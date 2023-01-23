@@ -1,7 +1,7 @@
 Test: "Create a constructor type named "Place"
 Code: function Place()
 
-Expected Output:
+Expected Output: 
 
 Test:
 Code:
