@@ -2,19 +2,12 @@
 
 function Place() {
   this.location= {};
-  this.currentId = 0;
-  }
-
-Place.prototype.assignId = function() {
-  this.currentId += 1;
-  return this.currentId;
-};
+  }   
+//above is defining object type as place
 
 Place.prototype.addPlaces = function(location) {
     this.location[location.country] = location;
-};
-
-
+  };
 
 
 function Info(country, city, landmark, language, notes) {
@@ -25,8 +18,10 @@ function Info(country, city, landmark, language, notes) {
 }
 
 Info.prototype.location = function() {
-  return this.country + " " + this.city;
+  return this.city + ", " + this.country;
 };
+
+
 
 
 
